@@ -52,7 +52,7 @@ public abstract class Conta {
 
     @Override
     public String toString() {
-        return titular + " seu saldo em conta é: $" + saldo +" Bonificacoes"+this.getBonificacao(); //To change body of generated methods, choose Tools | Templates.
+        return titular + " seu saldo em conta é: $" + saldo; //To change body of generated methods, choose Tools | Templates.
     }
 
     public boolean saca(double quantia) {
@@ -87,7 +87,6 @@ public abstract class Conta {
     
     public abstract void atualiza(double taxa);
 
-    public abstract double getBonificacao();
     
 
 }

@@ -3,20 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package OO.ClassesAbstratas.Contas;
-
-import OrientacaoObjetosBasico.Banco.*;
+package OO.Interfaces.CalcArea;
 
 /**
  *
  * @author felip
  */
-public class ContaPoupanca extends Conta{
+public interface AreaCalculavel {
     
-    @Override
-    public void atualiza(double taxa){
-        this.saldo *= ((taxa) * 3);
-    }
-
+    double calculaArea();
     
 }

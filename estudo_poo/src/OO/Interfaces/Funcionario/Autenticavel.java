@@ -3,20 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package OO.ClassesAbstratas.Contas;
-
-import OrientacaoObjetosBasico.Banco.*;
+package OO.Interfaces.Funcionario;
 
 /**
  *
  * @author felip
  */
-public class ContaPoupanca extends Conta{
-    
-    @Override
-    public void atualiza(double taxa){
-        this.saldo *= ((taxa) * 3);
-    }
-
+public interface Autenticavel {
+        public abstract boolean autentica(int senha);
     
 }

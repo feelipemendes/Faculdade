@@ -9,19 +9,11 @@ package OrientacaoObjetosBasico.Banco;
  *
  * @author felip
  */
-public class ContaCorrente extends Conta implements Tributavel{
-    @Override
-    public void atualiza(double taxa){
-        super.atualiza((taxa)*2);
-    }
-    
-    @Override
-    public void deposita(double valor){
-        this.saldo += valor - 0.10;
-    }
+public class SeguroVida implements Tributavel{
 
     @Override
     public double calcularTributos() {
-        return this.getSaldo()*0.01;
+        return 42;
     }
+    
 }
