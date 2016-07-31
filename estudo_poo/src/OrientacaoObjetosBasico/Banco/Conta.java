@@ -13,8 +13,9 @@ public class Conta {
 
     private int numero;
     private String dono;
-    private double saldo;
+    protected double saldo;
     private double limite;
+    private static int totalDeContas;
     private Cliente titular = new Cliente();
 
     public Conta() {
@@ -22,7 +23,8 @@ public class Conta {
 
     public Conta(Cliente c, int numConta) {
         this.titular = c;
-        this.numero = numConta;        
+        this.numero = numConta;      
+        Conta.totalDeContas += 1;
     }
 
     public int getNumero() {
@@ -37,9 +39,6 @@ public class Conta {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
 
     public double getLimite() {
         return limite;
@@ -79,5 +78,14 @@ public class Conta {
         }
 
     }
+
+    public int getTotalDeContas() {
+        return Conta.totalDeContas;
+    }
+    
+    public void atualiza(double taxa){
+        this.saldo += this.saldo * taxa;
+    }
+    
 
 }

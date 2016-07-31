@@ -17,7 +17,7 @@ public class testeConta {
         Conta maeConta = new Conta(new Cliente("Maria", "322.322.151/25"), 321);
 
         //Saldo no inicio do mes
-        minhaConta.setSaldo(1000);
+        minhaConta.deposita(1000);
         System.out.println("Nº da conta: " + minhaConta.getNumero() + " \n" + minhaConta);
         //Tirei 200 reais pra pagar as contas, mas e se eu nao tiver esse dinheiro?
         if (minhaConta.saca(2000)) {
@@ -31,7 +31,7 @@ public class testeConta {
         minhaConta.deposita(20000);
         System.out.println(minhaConta+"\n");//To rico!
 
-        maeConta.setSaldo(2000);
+        maeConta.deposita(2000);
         System.out.println("Nº da conta: " + maeConta.getNumero() + " \n" + maeConta);
 
         //Mae me da dinheiro?
@@ -45,6 +45,9 @@ public class testeConta {
         System.out.println("Nº da conta: " + minhaConta.getNumero() + " \n" + minhaConta+"\n");
         System.out.println("Nº da conta: " + maeConta.getNumero() + " \n" + maeConta);
 
+        System.out.println(minhaConta.getTotalDeContas());
+        
+        System.out.println("Fim!");
     }
 
 }
