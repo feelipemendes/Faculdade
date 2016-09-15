@@ -1,0 +1,46 @@
+﻿div#container {
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+div#content {
+    width: 73%;
+  
+}
+
+body {
+    display: block;
+    margin: 8px;
+	
+}
+
+div#header{
+	background-color:#096;	
+	margin: auto;	
+	background-image: url(images/image_airplane.jpg); 
+	
+}
+div#footer{
+	background-color:#076;	
+	margin: auto;	
+	background-image: url(images/image_airplane.jpg); 
+	float:button;
+	margin:auto;
+	
+}
+
+h1{
+	margin:auto;
+}
+ul#footer{
+	margin:auto;
+}
+
+
+#header img, #sidebar img{
+	max-width:100%;
+	height:auto;
+}
+
