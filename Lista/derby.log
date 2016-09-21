@@ -1,0 +1,31 @@
+Tue Sep 20 18:33:34 BRT 2016 : Apache Derby Servidor de Rede - 10.8.3.0 - (1405108) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+----------------------------------------------------------------
+Tue Sep 20 18:33:46 BRT 2016:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.8.3.0 - (1405108): instância a816c00e-0157-4984-adfc-000063a57a54
+no diretório de banco de dados C:\Users\lcc\Documents\NetBeansProjects\Lista\database  
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_51-b13
+user.dir=C:\Program Files\Java\jdk1.7.0_51\db
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Users\lcc\Documents\NetBeansProjects\Lista
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Sep 20 18:33:53 BRT 2016:
+Encerrando a instância a816c00e-0157-4984-adfc-000063a57a54
+Tue Sep 20 18:33:53 BRT 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = database), (DRDAID = {2}), Banco de dados 'database' fechado.
+----------------------------------------------------------------
+Tue Sep 20 18:33:55 BRT 2016:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.8.3.0 - (1405108): instância 6c44409f-0157-4984-adfc-000063a57a54
+no diretório de banco de dados C:\Users\lcc\Documents\NetBeansProjects\Lista\database  
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_51-b13
+user.dir=C:\Program Files\Java\jdk1.7.0_51\db
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Users\lcc\Documents\NetBeansProjects\Lista
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
